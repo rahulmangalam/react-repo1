@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 const heading = React.createElement(
     "div", { id: "parent" },
     React.createElement(
@@ -5,7 +7,7 @@ const heading = React.createElement(
         { id: "child" },
         [
             React.createElement("h1", { className: "heading" }, "hello world"),
-            React.createElement("h2", { className: "heading" }, "jai ram ji ki"),
+            React.createElement("h2", { className: "heading" }, "jai ram ji kikk iiiiii"),
         ]
     )
 );
